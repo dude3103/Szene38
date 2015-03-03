@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@android:style/Theme.Material.Light"
+    android:background="@drawable/bg_test"
+    android:backgroundTintMode="screen">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="40dp"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton"
+                android:theme="@android:style/Theme.Material.Light"
+                android:background="@drawable/home"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/home"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"
+                android:theme="@android:style/Theme.Material.Light"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton2"
+                android:theme="@android:style/Theme.Material.Light"
+                android:background="@drawable/news"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/news"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textColor="#ffffff"
+                android:theme="@android:style/Theme.Material.Light"
+                android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton3"
+                android:theme="@android:style/Theme.Material.Light"
+                android:background="@drawable/events"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/events"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"
+                android:theme="@android:style/Theme.Material.Light"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp" />
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton4"
+                android:theme="@android:style/Theme.Material.Light"
+                android:background="@drawable/locations"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/location"
+                android:id="@+id/textView5"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textColor="#ffffff"
+                android:theme="@android:style/Theme.Material.Light"
+                android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton5"
+                android:theme="@android:style/Theme.Material.Light"
+                android:background="@drawable/fotos"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/fotos"
+                android:id="@+id/textView6"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"
+                android:theme="@android:style/Theme.Material.Light"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton6"
+                android:theme="@android:style/Theme.Material.Light"
+                android:background="@drawable/services"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/service"
+                android:id="@+id/textView7"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24sp"
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp" />
+            </LinearLayout>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Users/Dude/Documents/Szene381/app/src/main/res/layout-land/overview.xml -->

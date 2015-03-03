@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Szene38</string>
+
+    <string name="hello_world">URL:</string>
+    <string name="action_settings">info</string>
+    <string name="info_txt">Made by Sven Krätzer</string>
+    <string name="browse">browse</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="events">Events</string>
+    <string name="location">Locations</string>
+    <string name="fotos">Fotos</string>
+    <string name="service">Service</string>
+    <string name="test">NUR FÜR TESTZWECKE !!!!!</string>
+</resources>
